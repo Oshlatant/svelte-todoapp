@@ -1,4 +1,4 @@
-const IP = "http://167.71.102.23:3000/todos/";
+const IP = "DB ip";
 
 const getTodoList = async () => {
     const res = await fetch(IP).then(res => res.json());
